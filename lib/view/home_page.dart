@@ -42,7 +42,7 @@ class _HomePageState extends State<HomePage> {
     _randomText = Data.randomSurah[_random.nextInt(Data.randomSurah.length)];
     _timer = Timer.periodic(Duration(milliseconds: 500), (timer) => _update());
     _randomSurah =
-        Timer.periodic(Duration(seconds: 5), (timer) => _updateText());
+        Timer.periodic(Duration(seconds: 10), (timer) => _updateText());
     _getData();
     super.initState();
   }
@@ -99,7 +99,7 @@ class _HomePageState extends State<HomePage> {
                 expandedHeight: 260,
                 forceElevated: scrolling,
                 title: Text(
-                  "Al-Qur'an Indonesia",
+                  "Al-Qur'an App",
                   style:
                       TextStyle(color: Colors.white70, fontSize: Size.size18),
                   maxLines: 1,

@@ -35,7 +35,7 @@ class _SplashscreenState extends State<Splashscreen> {
           Expanded(
             child: Center(
               child: Text(
-                "Al-Qur'an Indonesia App",
+                "Al-Qur'an App",
                 style: TextStyle(fontSize: Size.size24, color: Colors.white),
               ),
             ),
